@@ -26,6 +26,7 @@
     "@babel/core": "^7.20.2",
     "@babel/preset-env": "^7.20.2",
     "@babel/runtime": "^7.20.1",
+    "@rnx-kit/metro-resolver-symlinks": "^0.1.23",
     "@tsconfig/react-native": "^2.0.2",
     "@types/jest": "^26.0.23",
     "@types/react": "^18.0.21",

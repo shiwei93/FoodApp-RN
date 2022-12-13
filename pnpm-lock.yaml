@@ -6,6 +6,7 @@ specifiers:
   '@babel/runtime': ^7.20.1
   '@react-navigation/native': ^6.0.13
   '@react-navigation/native-stack': ^6.9.1
+  '@rnx-kit/metro-resolver-symlinks': ^0.1.23
   '@tsconfig/react-native': ^2.0.2
   '@types/jest': ^26.0.23
   '@types/react': ^18.0.21
@@ -52,6 +53,7 @@ devDependencies:
   '@babel/core': 7.20.5
   '@babel/preset-env': 7.20.2_@babel+core@7.20.5
   '@babel/runtime': 7.20.6
+  '@rnx-kit/metro-resolver-symlinks': 0.1.23
   '@tsconfig/react-native': 2.0.3
   '@types/jest': 26.0.24
   '@types/react': 18.0.26
@@ -1933,6 +1935,33 @@ packages:
       nanoid: 3.3.4
     dev: false
 
+  /@rnx-kit/metro-resolver-symlinks/0.1.23:
+    resolution: {integrity: sha512-Mh9/3DvEfRCxgvf/XQOOC67Opziw0c9/lCdRTvRzY6GAWErmi2GfEKBR9wceBPfAR0s7IhtEAVNCHfkN/ZHfSQ==}
+    dependencies:
+      '@rnx-kit/tools-node': 1.3.1
+      '@rnx-kit/tools-react-native': 1.2.3
+      enhanced-resolve: 5.12.0
+    dev: true
+
+  /@rnx-kit/tools-language/1.4.2:
+    resolution: {integrity: sha512-eU6VQxuLgRnoYqc2uDB5VeocyFHXbq1TJLubND8kF6G8rFoUcQCehON5dMBOSF+3C33bDuqzjTlMtc2b1eAd7w==}
+    dev: true
+
+  /@rnx-kit/tools-node/1.3.1:
+    resolution: {integrity: sha512-qeMRwjFK7CSeVInoYc/fEy7hJrkvR6ud2AQHmbkYTMmTp7TzwCSx2tRbl+bSu7jxDcHOWxvz0d+NM0m84p3tVg==}
+    dependencies:
+      '@rnx-kit/tools-language': 1.4.2
+      find-up: 5.0.0
+      pkg-dir: 5.0.0
+      pkg-up: 3.1.0
+    dev: true
+
+  /@rnx-kit/tools-react-native/1.2.3:
+    resolution: {integrity: sha512-sQUSdCt5ZFpmLEv8CmYZ/erW/rRybWAkOfLXzZ4gWErCxt7O7phJHJ3XSk2yIArMi0pcViTLPxMrJHI044eSNQ==}
+    dependencies:
+      '@rnx-kit/tools-node': 1.3.1
+    dev: true
+
   /@sideway/address/4.1.4:
     resolution: {integrity: sha512-7vwq+rOHVWjyXxVlR76Agnvhy8I9rpzjosTESvmhNeXOXdZZB15Fl+TI9x1SiHZH5Jv2wTGduSxFDIaq0m3DUw==}
     dependencies:
@@ -3413,6 +3442,14 @@ packages:
     resolution: {integrity: sha512-+uw1inIHVPQoaVuHzRyXd21icM+cnt4CzD5rW+NC1wjOUSTOs+Te7FOv7AhN7vS9x/oIyhLP5PR1H+phQAHu5Q==}
     dependencies:
       once: 1.4.0
+
+  /enhanced-resolve/5.12.0:
+    resolution: {integrity: sha512-QHTXI/sZQmko1cbDoNAa3mJ5qhWUUNAq3vR0/YiD379fWQrcfuoX1+HW2S0MTt7XmoPLapdaDKUtelUSPic7hQ==}
+    engines: {node: '>=10.13.0'}
+    dependencies:
+      graceful-fs: 4.2.10
+      tapable: 2.2.1
+    dev: true
 
   /entities/2.2.0:
     resolution: {integrity: sha512-p92if5Nz619I0w+akJrLZH0MX0Pb5DX39XOwQTtXSdQQOaYH03S1uIQp4mhOZtAXrxq4ViO67YTiLBo2638o9A==}
@@ -6057,6 +6094,13 @@ packages:
       find-up: 4.1.0
     dev: true
 
+  /pkg-dir/5.0.0:
+    resolution: {integrity: sha512-NPE8TDbzl/3YQYY7CSS228s3g2ollTFnc+Qi3tqmqJp9Vg2ovUpixcJEo2HJScN2Ez+kEaal6y70c0ehqJBJeA==}
+    engines: {node: '>=10'}
+    dependencies:
+      find-up: 5.0.0
+    dev: true
+
   /pkg-up/3.1.0:
     resolution: {integrity: sha512-nDywThFk1i4BQK4twPQ6TA4RT8bDY96yeuCVBWL3ePARCiEKDRSrNGbFIgUJpLp+XeIR65v8ra7WuJOFUBtkMA==}
     engines: {node: '>=8'}
@@ -7065,6 +7109,11 @@ packages:
 
   /symbol-tree/3.2.4:
     resolution: {integrity: sha512-9QNk5KwDF+Bvz+PyObkmSYjI5ksVUYtjW7AU22r2NKcfLJcXp96hkDWU3+XndOsUb+AQ9QhfzfCT2O+CNWT5Tw==}
+    dev: true
+
+  /tapable/2.2.1:
+    resolution: {integrity: sha512-GNzQvQTOIP6RyTfE2Qxb8ZVlNmw0n88vp1szwWRimP02mnTsx3Wtn5qRdqY9w2XduFNUgvOwhNnQsjwCp+kqaQ==}
+    engines: {node: '>=6'}
     dev: true
 
   /temp/0.8.3:
