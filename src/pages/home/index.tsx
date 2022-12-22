@@ -1,49 +1,36 @@
-import { ScrollView, StyleSheet, Text, useColorScheme, View } from 'react-native';
-import {
-    Colors,
-    DebugInstructions,
-    Header,
-    LearnMoreLinks,
-    ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
+import { ScrollView, View } from 'react-native';
 import Section from '@/components/section';
+import Card from '@/components/card';
+import Category from '@/components/category';
 
 const Home = () => {
-    const isDarkMode = useColorScheme() === 'dark';
-
     const backgroundStyle = {
-        backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
+        backgroundColor: '#F9F9FB',
     };
 
     return (
         <ScrollView contentInsetAdjustmentBehavior="automatic" style={backgroundStyle}>
-            <Header />
             <View
                 style={{
-                    backgroundColor: isDarkMode ? Colors.black : Colors.white,
+                    backgroundColor: '#F9F9FB',
                 }}
             >
-                <Section title="Step One">
-                    Edit <Text style={styles.highlight}>App.tsx</Text> to change this screen and
-                    then come back to see your edits.
+                <Section title="Categories" direction="horizontal">
+                    <Category />
+                    <Category />
+                    <Category />
                 </Section>
-                <Section title="See Your Changes">
-                    <ReloadInstructions />
+                <Section title="Popular">
+                    <Card title="1" />
+                    <Card title="2" />
+                    <Card title="3" />
+                    <Card title="4" />
+                    <Card title="5" />
+                    <Card title="6" />
                 </Section>
-                <Section title="Debug">
-                    <DebugInstructions />
-                </Section>
-                <Section title="Learn More">Read the docs to discover what to do next:</Section>
-                <LearnMoreLinks />
             </View>
         </ScrollView>
     );
 };
-
-const styles = StyleSheet.create({
-    highlight: {
-        fontWeight: '700',
-    },
-});
 
 export default Home;

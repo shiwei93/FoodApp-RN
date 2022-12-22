@@ -3,7 +3,11 @@ import { useColorScheme, View, Text, StyleSheet } from 'react-native';
 
 import { Colors } from 'react-native/Libraries/NewAppScreen';
 
-const Section: FC<PropsWithChildren<{ title: string }>> = ({ children, title }) => {
+const Section: FC<PropsWithChildren<{ title: string; direction?: 'horizontal' | 'vertical' }>> = ({
+    children,
+    title,
+    direction = 'vertical',
+}) => {
     const isDarkMode = useColorScheme() === 'dark';
 
     return (
@@ -13,21 +17,20 @@ const Section: FC<PropsWithChildren<{ title: string }>> = ({ children, title }) 
                     styles.sectionTitle,
                     {
                         color: isDarkMode ? Colors.white : Colors.black,
+                        marginBottom: 12,
                     },
                 ]}
             >
                 {title}
             </Text>
-            <Text
-                style={[
-                    styles.sectionDescription,
-                    {
-                        color: isDarkMode ? Colors.light : Colors.dark,
-                    },
-                ]}
+            <View
+                style={{
+                    display: 'flex',
+                    flexDirection: direction === 'vertical' ? 'column' : 'row',
+                }}
             >
                 {children}
-            </Text>
+            </View>
         </View>
     );
 };
@@ -38,13 +41,9 @@ const styles = StyleSheet.create({
         paddingHorizontal: 24,
     },
     sectionTitle: {
-        fontSize: 24,
-        fontWeight: '600',
-    },
-    sectionDescription: {
-        marginTop: 8,
-        fontSize: 18,
-        fontWeight: '400',
+        fontSize: 16,
+        fontWeight: '700',
+        lineHeight: 20,
     },
 });
 

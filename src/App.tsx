@@ -17,7 +17,7 @@ const App = () => {
                         name="Home"
                         component={Home}
                         options={{
-                            title: 'React Native',
+                            title: 'Food',
                         }}
                     />
                 </Stack.Group>
