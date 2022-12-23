@@ -48,7 +48,6 @@ dependencies:
   react-native-safe-area-context: 4.4.1_tj3nonr5gneraukzjkxpsiy7yu
   react-native-screens: 3.18.2_tj3nonr5gneraukzjkxpsiy7yu
   react-native-svg: 13.6.0_tj3nonr5gneraukzjkxpsiy7yu
-  react-native-vector-icons: 9.2.0
 
 devDependencies:
   '@babel/core': 7.20.5
@@ -75,6 +74,7 @@ devDependencies:
   metro-react-native-babel-preset: 0.72.3_@babel+core@7.20.5
   prettier: 2.8.1
   react-native-svg-transformer: 1.0.0_t622mrclk7o6j6mwz34ema6fve
+  react-native-vector-icons: 9.2.0
   react-test-renderer: 18.1.0_react@18.1.0
   typescript: 4.9.4
 
@@ -3051,7 +3051,7 @@ packages:
       string-width: 4.2.3
       strip-ansi: 6.0.1
       wrap-ansi: 7.0.0
-    dev: false
+    dev: true
 
   /clone-deep/4.0.1:
     resolution: {integrity: sha512-neHB9xuzh/wk0dIHweyAXv2aPGZIVk3pLMe+/RNzINf17fe0OG96QroktYAUm7SM1PBnzTabaLboqqxDyMU+SQ==}
@@ -6655,7 +6655,7 @@ packages:
     dependencies:
       prop-types: 15.8.1
       yargs: 16.2.0
-    dev: false
+    dev: true
 
   /react-native/0.70.5_2hkxedd44to6uuf252s62q5boq:
     resolution: {integrity: sha512-5NZM80LC3L+TIgQX/09yiyy48S73wMgpIgN5cCv3XTMR394+KpDI3rBZGH4aIgWWuwijz31YYVF5504+9n2Zfw==}
@@ -7935,6 +7935,7 @@ packages:
       ansi-styles: 4.3.0
       string-width: 4.2.3
       strip-ansi: 6.0.1
+    dev: true
 
   /wrappy/1.0.2:
     resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
@@ -7998,7 +7999,7 @@ packages:
   /y18n/5.0.8:
     resolution: {integrity: sha512-0pfFzegeDWJHJIAmTLRP2DwHjdF5s7jo9tuztdQxAhINCdvS+3nGINqPd00AphqJR/0LhANUS6/+7SCb98YOfA==}
     engines: {node: '>=10'}
-    dev: false
+    dev: true
 
   /yallist/4.0.0:
     resolution: {integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==}
@@ -8024,7 +8025,7 @@ packages:
   /yargs-parser/20.2.9:
     resolution: {integrity: sha512-y11nGElTIV+CT3Zv9t7VKl+Q3hTQoT9a1Qzezhhl6Rp21gJ/IVTW7Z3y9EWXhuUBC2Shnf+DX0antecpAwSP8w==}
     engines: {node: '>=10'}
-    dev: false
+    dev: true
 
   /yargs/15.4.1:
     resolution: {integrity: sha512-aePbxDmcYW++PaqBsJ+HYUFwCdv4LVvdnhBy78E57PIor8/OVvhMrADFFEDh8DHDFRv/O9i3lPhsENjO7QX0+A==}
@@ -8053,7 +8054,7 @@ packages:
       string-width: 4.2.3
       y18n: 5.0.8
       yargs-parser: 20.2.9
-    dev: false
+    dev: true
 
   /yocto-queue/0.1.0:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}

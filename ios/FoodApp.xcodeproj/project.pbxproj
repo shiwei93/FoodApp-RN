@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* FoodAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* FoodAppTests.m */; };
+		05A2C7B58FE24EF39BC57FBF /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 074DC95C67CC4E43AD5B3E57 /* Montserrat-SemiBold.ttf */; };
 		0C80B921A6F3F58F76C31292 /* libPods-FoodApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-FoodApp.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-FoodApp-FoodAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-FoodApp-FoodAppTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		9513AEA140C147EBBBAE83BC /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64861681809D46E6ACB38CDE /* Montserrat-Regular.ttf */; };
+		AFD49D7466B34D9BB4E3604E /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61DDCD358AA6493A8D9F813E /* Montserrat-Bold.ttf */; };
+		D8E2E2EC05AC41609E9C518C /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A156E290F524C96A0BB144A /* Montserrat-Medium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +34,7 @@
 		00E356EE1AD99517003FC87E /* FoodAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* FoodAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoodAppTests.m; sourceTree = "<group>"; };
+		074DC95C67CC4E43AD5B3E57 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-SemiBold.ttf"; path = "../assets/fonts/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* FoodApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = FoodApp/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = FoodApp/AppDelegate.mm; sourceTree = "<group>"; };
@@ -38,9 +43,12 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = FoodApp/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-FoodApp-FoodAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FoodApp-FoodAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-FoodApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodApp.debug.xcconfig"; path = "Target Support Files/Pods-FoodApp/Pods-FoodApp.debug.xcconfig"; sourceTree = "<group>"; };
+		4A156E290F524C96A0BB144A /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Medium.ttf"; path = "../assets/fonts/Montserrat-Medium.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-FoodApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodApp.release.xcconfig"; path = "Target Support Files/Pods-FoodApp/Pods-FoodApp.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-FoodApp-FoodAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodApp-FoodAppTests.debug.xcconfig"; path = "Target Support Files/Pods-FoodApp-FoodAppTests/Pods-FoodApp-FoodAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-FoodApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FoodApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61DDCD358AA6493A8D9F813E /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Bold.ttf"; path = "../assets/fonts/Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		64861681809D46E6ACB38CDE /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Regular.ttf"; path = "../assets/fonts/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = FoodApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-FoodApp-FoodAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodApp-FoodAppTests.release.xcconfig"; path = "Target Support Files/Pods-FoodApp-FoodAppTests/Pods-FoodApp-FoodAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -106,6 +114,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		49D89048BFB147D99C4BFEED /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				61DDCD358AA6493A8D9F813E /* Montserrat-Bold.ttf */,
+				4A156E290F524C96A0BB144A /* Montserrat-Medium.ttf */,
+				64861681809D46E6ACB38CDE /* Montserrat-Regular.ttf */,
+				074DC95C67CC4E43AD5B3E57 /* Montserrat-SemiBold.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +142,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				49D89048BFB147D99C4BFEED /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -244,6 +265,10 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				AFD49D7466B34D9BB4E3604E /* Montserrat-Bold.ttf in Resources */,
+				D8E2E2EC05AC41609E9C518C /* Montserrat-Medium.ttf in Resources */,
+				9513AEA140C147EBBBAE83BC /* Montserrat-Regular.ttf in Resources */,
+				05A2C7B58FE24EF39BC57FBF /* Montserrat-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
