@@ -37,7 +37,8 @@ const Section: FC<PropsWithChildren<{ title: string; direction?: 'horizontal' | 
 
 const styles = StyleSheet.create({
     sectionContainer: {
-        paddingHorizontal: 24,
+        paddingHorizontal: 20,
+        paddingBottom: 20,
     },
     sectionTitle: {
         fontSize: 16,
